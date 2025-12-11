@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.3
+%define		kdeappsver	25.12.0
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		ksmtp
 Summary:	ksmtp
 Name:		ka6-%{kaname}
-Version:	25.08.3
-Release:	2
+Version:	25.12.0
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	e3e335f4ffd296e591f07ca1b27bb0e6
+# Source0-md5:	5caed817a04dc3ea322f0533ce15c0eb
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
